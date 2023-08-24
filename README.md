@@ -16,10 +16,16 @@ $ cd autopack-demo
 $ poetry install
 ```
 
-### Execute the main.py script
-
+### Set up API acesss for GPT models
+Set up you OpenAI API token as the OPENAI_API_KEY environment variable like this:
 ```bash
-$ python main.py
+export OPENAI_API_KEY=xxxxxxxxxxxxx
+```
+
+### Run the demo
+You can execute the main.py script from the poetry virtual environment like this:
+```bash
+$ poetry run python demo/main.py
 ```
 
 ### It will prompt you for what you want to do
